@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": " node index.js"
+    "dev": " nodemon src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
   "author": "Pratap",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
